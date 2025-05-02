@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: #d9f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.picture{
+    margin-top: -150px;
+}
+
+.card-parent{
+    display: flex;
+}
+
+.purple{
+    background-color: #BED4F4;
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-top: 200px;
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+    top: 210px;
+}
+
+.purple ul{
+    list-style: none;
+    line-height: 30px;
+    color: white;
+}
+
+.list-cards{
+    background: linear-gradient(360deg, #1b88c5, #02a4aa);
+    /* position: absolute; */
+    bottom: 200px;
+}
+
+.buttons{
+    background-color: #F8FBFF;
+}
+
+.small-buttons{
+    display: flex;
+}
+
+.green{
+    gap: 40px;
+    justify-content: center;
+}
+
+.green p, span{
+    color: white;
+}
+
+.footer-last{
+    background-color: #B0E4E4;
+    display: flex;
+}
+
+.first-div-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .picture{
+        margin-top: 0px;
+    }
+
+    .woman{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .scatter{
+        flex-direction: column;
+    }
+
+    .picture img{
+        width: 80%;
+    }
+
+    .woman2{
+        margin-top: 50px;
+    }
+
+    .list-cards{
+        top: 0px;
+    }
+
+    .purple{
+       top: 0px;
+    }
+
+    .small-buttons{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        gap: 250px;
+    }
+
+    .woman{
+        text-align: center;
+    }
+
+
+    .scatter{
+        text-align: center;
+    }
+
+    .list-cards{
+        top: 0px;
+    }
+
+    .purple{
+       top: 0px;
+    }
+
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .small-buttons{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .small-buttons{
+        gap: 20px;
+        justify-content: center;
+    }
+}
