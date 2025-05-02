@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.first-last{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    background: url(./image/man\ with\ laptop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 110vh;
+}
+
+.last{
+    text-align: start;
+    margin-left: -250px;
+
+}
+
+.last input{
+    width: 23vw;
+}
+
+.hr-div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-div{
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+}
+
+@media screen and (max-width: 480px) {
+    .first-last{
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+    }
+
+    .last input{
+        width: 80%;
+        text-align: center;
+    }
+
+    .first{
+        width: 100%;
+    }
+    
+    .last{
+        margin-left: 80px;
+    }
+
+    .last input{
+        width: 70%;
+    }
+
+    .google-div{
+        width: 70%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .first-last{
+        flex-direction: column;
+        text-align: center;
+        gap: 80px;
+    }
+
+    .last input{
+        width: 80%;
+        text-align: center;
+    }
+
+    .first{
+        width: 100%;
+    }
+    
+    .last{
+        margin-left: 80px;
+    }
+
+    .last input{
+        width: 70%;
+    }
+
+    .google-div{
+        width: 70%;
+    }
+}
