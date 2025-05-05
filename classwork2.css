@@ -96,6 +96,10 @@
         text-align: center;
     }
 
+    .woman img{
+        width: 80%;
+    }
+
     .scatter{
         flex-direction: column;
     }
@@ -183,6 +187,10 @@
     .small-buttons{
         flex-direction: column;
         gap: 30px;
+    }
+
+    .woman img{
+        width: 80%;
     }
 }
 
