@@ -96,7 +96,7 @@
         text-align: center;
     }
 
-    .woman img{
+    .woman-pics{
         width: 80%;
     }
 
@@ -150,6 +150,10 @@
 
     .woman{
         text-align: center;
+    }
+
+    .woman2 img{
+        width: 50px;
     }
 
 
